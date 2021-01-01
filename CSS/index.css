@@ -1,18 +1,21 @@
 .center {
     text-align: center !important;
 }
-
-input[type="text"] {
+label{display: inherit  !important;}
+.item-name{
     width: 200px !important;
-    height: 25px !important;
-    padding-right: 50px !important;
+       padding-right: 50px !important;
     padding-left: 10px !important;
 }
 
 .w-50 {
     width: 50% !important;
 }
+.m-w695px{
 
+width: 695px !important;
+
+}
 .w-100 {
     width: 100% !important;
 }
@@ -20,6 +23,7 @@ input[type="text"] {
 .menueitems {
     background: lightgreen !important;
     color: blue !important;
+    height: 50px !important;
 }
 
 .MI1 {
@@ -33,12 +37,14 @@ input[type="text"] {
 .MI2 {
     margin-left: 7px !important;
 }
-
-input[type="submit"] {
+button{    padding-top: 5px !important;
+    padding-bottom: 4px !important;}
+.add1{
     margin-left: -30px !important;
-    height: 25px !important;
-    background: rgb(14 190 14) !important;
+      background: rgb(14 190 14) !important;
     color: white !important;
+    padding-top: 5px !important;
+
     border: 0 !important;
     -webkit-appearance: none !important;
 }
@@ -47,16 +53,23 @@ textarea:focus,
 input:focus {
     outline: none !important;
 }
+.hidden,.none{display: none !important;}
+.inline{
 
+display: inline!important;
 
+}
 /* b-g= border - grayish */
 
 .b-g {
     border: 2px #c3bebe solid !important;
 }
-
-input {
+.height-34px{    height: 34px !important;
+}
+.item-name,.add1 {
     border-radius: 100px !important;
+    height:28px !important ;
+
 }
 
 td {
@@ -68,21 +81,20 @@ td {
 
 .divider {
     display: inline-block !important;
-    border-right: 2px gainsboro solid !important;
-    height: 40px !important;
-    bottom: 2px !important;
+    border-right: 2px #c2c1c1 solid !important;
+    height: 45px !important;
+    bottom: 4px !important;
     position: absolute !important;
 }
 
 .grmenue {
     border: 3px lightgreen solid !important;
     background: lightgreen !important;
-    height: 45px !important;
     bottom: 2px !important;
 }
 
 .menueitems:hover {
-    border: 1px #ffd079 solid !important;
+    border: 1px orange solid !important;
 }
 
 .td {
